@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "baam": "https://baam.pro/vocab/"
+  },
+  "@graph": [
+    {
+      "@id": "https://editions.baam.pro/",
+      "@type": "CollectionPage",
+      "name": "BAAM.ÉDITIONS",
+      "description": "Livres, feuilletons et objets éditoriaux augmentés. Une bibliothèque de mondes à lire, garder et transmettre.",
+      "hasPart": [
+        {
+          "@id": "https://utile-agreable.editions.baam.pro/"
+        }
+      ]
+    },
+    {
+      "@id": "https://utile-agreable.editions.baam.pro/",
+      "@type": "Book",
+      "name": "L’Utile et l’Agréable",
+      "author": {
+        "@type": "Person",
+        "name": "Patric K Horn"
+      },
+      "description": "Un roman-feuilleton de Patric K Horn en 52 épisodes : une trajectoire entre chute, connaissance, réussite impossible et retour à ce qui n’a pas de prix.",
+      "dateModified": "2026-11-09",
+      "isPartOf": {
+        "@id": "https://editions.baam.pro/"
+      }
+    }
+  ]
+}

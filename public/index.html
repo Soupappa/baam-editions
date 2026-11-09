@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BAAM.ÉDITIONS — Écrire des mondes</title>
+  <meta name="description" content="Livres, feuilletons et objets éditoriaux augmentés. Une bibliothèque de mondes à lire, garder et transmettre.">
+  <meta name="theme-color" content="#070707">
+  <link rel="canonical" href="https://editions.baam.pro/">
+  <link rel="preconnect" href="https://baam.pro">
+  <link rel="stylesheet" href="https://baam.pro/baam-tokens.css">
+  <link rel="icon" href="https://baam.pro/icones/b-editions.svg" type="image/svg+xml">
+  <link rel="icon" href="https://baam.pro/icones/b-editions-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="https://baam.pro/icones/b-editions-180.png">
+  <meta property="og:title" content="BAAM.ÉDITIONS — Écrire des mondes">
+  <meta property="og:description" content="Une bibliothèque de mondes à lire, garder et transmettre.">
+  <meta property="og:image" content="https://baam.pro/icones/og-editions.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://editions.baam.pro/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://baam.pro/icones/og-editions.png">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://baam.pro/baam-signe.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#bibliotheque">Aller à la bibliothèque</a>
+
+  <header class="site-header">
+    <a class="brand-link" href="/" aria-label="BAAM Éditions — accueil">
+      <baam-signe univers="editions" sans-polices></baam-signe>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="#bibliotheque">Catalogue</a>
+      <a href="#maison">La maison</a>
+      <a href="https://baam.pro/">BAAM.pro ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-field" aria-hidden="true">
+        <svg viewBox="0 0 1200 640" preserveAspectRatio="none">
+          <g class="horizon-lines">
+            <path d="M-90 184 C70 164 154 171 250 184 S420 214 500 184 S612 127 692 172 S804 216 880 177 S1010 139 1120 167 S1245 201 1320 176" />
+            <path d="M-90 228 C62 207 166 216 260 232 S424 260 510 226 S622 162 704 213 S816 258 892 217 S1020 178 1128 207 S1240 240 1320 218" />
+            <path d="M-90 278 C78 255 170 267 268 282 S432 310 520 275 S630 209 716 263 S828 305 904 266 S1032 226 1142 255 S1248 292 1320 269" />
+            <path d="M-90 332 C64 309 176 319 276 337 S438 364 530 327 S640 260 726 315 S840 360 918 320 S1040 280 1150 309 S1250 346 1320 324" />
+            <path d="M-90 390 C72 367 184 378 284 394 S448 422 540 384 S650 316 738 372 S850 416 930 377 S1050 337 1160 366 S1256 404 1320 382" />
+            <path d="M-90 452 C74 428 190 440 294 457 S460 484 552 447 S662 378 750 434 S862 479 942 439 S1062 401 1172 428 S1262 464 1320 444" />
+          </g>
+        </svg>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Territoire 09 · Éditions</p>
+        <h1 id="hero-title">Une bibliothèque<br><em>de mondes.</em></h1>
+        <p class="hero-intro">Romans, feuilletons et objets éditoriaux augmentés. Des livres qui restent ouverts, se prolongent et circulent.</p>
+      </div>
+      <div class="hero-signature">
+        <baam-signe univers="editions" devise adresse sans-polices></baam-signe>
+      </div>
+      <a class="hero-index" href="#bibliotheque"><span>01</span> Ouvrir le catalogue ↓</a>
+    </section>
+
+    <section class="library" id="bibliotheque" aria-labelledby="library-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span></span> Catalogue vivant</p>
+          <h2 id="library-title">Les livres</h2>
+        </div>
+        <p class="library-count" id="library-count" aria-live="polite">Chargement du catalogue…</p>
+      </div>
+      <div class="library-field" aria-hidden="true"></div>
+      <div class="library-grid" id="library-grid"></div>
+      <noscript><p class="load-error">JavaScript est nécessaire pour composer la bibliothèque depuis son registre.</p></noscript>
+    </section>
+
+    <section class="house" id="maison" aria-labelledby="house-title">
+      <div class="house-index">BAAM.09 / ÉDITIONS</div>
+      <div class="house-copy">
+        <p class="eyebrow"><span></span> La maison</p>
+        <h2 id="house-title">Le livre reste un objet.<br>Le récit peut devenir un système.</h2>
+        <p>BAAM Éditions accueille des livres qui existent sur papier et se prolongent ailleurs : feuilletons ouverts, cartes narratives, musique, images, outils de lecture ou expériences interactives. Le numérique ne remplace pas le livre. Il lui donne d’autres portes.</p>
+      </div>
+      <ol class="principles" aria-label="Principes éditoriaux">
+        <li><span>01</span><strong>Lire</strong><small>Entrer sans obstacle.</small></li>
+        <li><span>02</span><strong>Garder</strong><small>Donner une forme durable.</small></li>
+        <li><span>03</span><strong>Transmettre</strong><small>Faire circuler le monde.</small></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <baam-signe univers="editions" sans-polices></baam-signe>
+    <p>Écrire <span>des mondes</span></p>
+    <a href="https://baam.pro/">Retour à la constellation BAAM ↗</a>
+  </footer>
+</body>
+</html>

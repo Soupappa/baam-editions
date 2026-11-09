@@ -1,0 +1,11 @@
+{
+  "name": "baam-editions-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-portal.js",
+    "check": "node scripts/build-portal.js --check",
+    "test": "node scripts/test-manifest-contract.js && node scripts/test-output.js",
+    "serve": "node server.js"
+  }
+}

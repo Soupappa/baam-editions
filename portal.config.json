@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "territory": {
+    "id": "editions",
+    "name": "ÉDITIONS",
+    "title": "BAAM.ÉDITIONS",
+    "url": "https://editions.baam.pro/",
+    "localUrl": "http://127.0.0.1:8096/",
+    "accent": "#FF762E",
+    "tagline": "Écrire des mondes",
+    "description": "Livres, feuilletons et objets éditoriaux augmentés. Une bibliothèque de mondes à lire, garder et transmettre."
+  },
+  "featured": ["utile-et-agreable"],
+  "sources": [
+    {
+      "id": "utile-et-agreable",
+      "file": "../PatrickHorn/baam.json",
+      "url": "https://utile-agreable.editions.baam.pro/.well-known/baam.json",
+      "cache": "data/manifests/utile-et-agreable.json"
+    }
+  ]
+}

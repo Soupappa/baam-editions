@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "utile-et-agreable",
+  "title": "L’Utile et l’Agréable",
+  "summary": "Un roman-feuilleton de Patric K Horn en 52 épisodes : une trajectoire entre chute, connaissance, réussite impossible et retour à ce qui n’a pas de prix.",
+  "type": "roman-feuilleton",
+  "status": "public",
+  "territories": [
+    "editions"
+  ],
+  "url": "https://utile-agreable.editions.baam.pro/",
+  "localUrl": "http://127.0.0.1:8084/",
+  "repository": "https://github.com/Soupappa/hornubert-phantasmagoria-unveiled",
+  "updatedAt": "2026-11-09",
+  "tags": [
+    "roman",
+    "feuilleton",
+    "science",
+    "philosophie",
+    "récit initiatique"
+  ],
+  "preview": {
+    "type": "image",
+    "url": "https://baam.pro/assets/editions-preview-final.webp",
+    "alt": "L’Utile et l’Agréable, titre du roman entre ciel nocturne et paysage dessiné"
+  },
+  "presentation": {
+    "index": "01",
+    "author": "Patric K Horn",
+    "eyebrow": "Roman · 52 épisodes",
+    "quote": "Il voulait vivre sa vie, sa petite vie de livre.",
+    "formats": [
+      "Feuilleton intégral libre",
+      "Livre papier"
+    ],
+    "accent": "#ff596d"
+  },
+  "actions": [
+    {
+      "label": "Entrer dans le livre",
+      "url": "https://utile-agreable.editions.baam.pro/",
+      "kind": "primary"
+    },
+    {
+      "label": "Lire les 52 épisodes",
+      "url": "https://utile-agreable.editions.baam.pro/feuilleton",
+      "kind": "secondary"
+    },
+    {
+      "label": "Acheter le livre papier",
+      "url": "https://www.amazon.fr/dp/B0HP7TTX7T",
+      "kind": "external"
+    }
+  ],
+  "relations": []
+}

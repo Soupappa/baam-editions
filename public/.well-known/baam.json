@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "baam-editions",
+  "title": "BAAM.ÉDITIONS",
+  "summary": "Livres, feuilletons et objets éditoriaux augmentés. Une bibliothèque de mondes à lire, garder et transmettre.",
+  "type": "territory",
+  "status": "public",
+  "territories": [
+    "editions"
+  ],
+  "url": "https://editions.baam.pro/",
+  "updatedAt": "2026-11-09",
+  "tags": [
+    "livres",
+    "édition",
+    "feuilletons"
+  ],
+  "preview": {
+    "type": "none",
+    "key": "bibliotheque-horizons"
+  },
+  "relations": []
+}
